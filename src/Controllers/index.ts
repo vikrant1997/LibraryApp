@@ -1,0 +1,5 @@
+export * as authController from './authController'
+export * as bookController from './bookController'
+export * as bookInstanceController from './bookInstanceController'
+export * as genreController from './genreController'
+export * as homePageController from './homePageController'
