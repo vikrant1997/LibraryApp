@@ -1,78 +1,74 @@
 import async from 'async'
-import express, {
-  Request as Req,
-  Response as Res,
-  NextFunction as Next,
-} from 'express'
-// const { BookInstance, Book } = require('../models')
+import { IRequest, IResponse, INext, IError } from '../interfaces/vendors'
+import { Book, BookInstance } from '../models'
+import HttpException from '../exceptions/HttpException'
 
-const index = function (req: Req, res: Res) {
+const index = (req: IRequest, res: IResponse) => {
   res.send('NOT IMPLEMENTED: Site Home Page')
 }
 
-const bookList = function (req: Req, res: Res, next: Next) {
-  // Book.find({}, 'title author')
-  //   .populate('author')
-  //   .exec(function (err, list_books) {
-  //     if (err) {
-  //       console.log(err)
-  //       return :Next
-  //     }
+const bookList = (req: IRequest, res: IResponse, next: INext) => {
+  Book.find({}, 'title author')
+    .populate('author')
+    .exec((err: Error, listBooks) => {
+      if (err) {
+        return next(err)
+      }
 
-  //     res.send(list_books)
-  //   })
-  res.send('NOT IMPLEMENTED: Book list')
+      res.send(listBooks)
+    })
+  // res.send('NOT IMPLEMENTED: Book list')
 }
 
-const bookDetail = function (req: Req, res: Res) {
-  res.send('NOT IMPLEMENTED: Book detail GET')
-  // async.parallel(
-  //   {
-  //     book(callback) {
-  //       Book.findById(req:Req.para:Resms.id)
-  //         .populate('author')
-  //         .populate('genre')
-  //         .exec(callback)
-  //     },
-  //     bookInstance(callback) {
-  //       BookInstance.find({ book: req.params.id }).exec(callback)
-  //     },
-  //   },
-  //   function (err, results) {
-  //     if (err) {
-  //       return next(err)
-  //     }
-  //     if (results.book == null) {
-  //       var err = new Error('Book not found')
-  //       err.status = 404
-  //       return next(err)
-  //     }
-  //     res.send(results)
-  //   },
-  // )
+const bookDetail = (req: IRequest, res: IResponse, next: INext) => {
+  // res.send('NOT IMPLEMENTED: Book detail GET')
+  async.parallel(
+    {
+      book(callback) {
+        Book.findById(req.params.id)
+          .populate('author')
+          .populate('genre')
+          .exec(callback)
+      },
+      bookInstance(callback) {
+        BookInstance.find({ book: req.params.id }).exec(callback)
+      },
+    },
+    (err: IError, results) => {
+      if (err) {
+        return next(err)
+      }
+      if (results.book == null) {
+        const queryErr = new HttpException(404, 'Book not found')
+        queryErr.status = 404
+        return next(err)
+      }
+      res.send(results)
+    },
+  )
 }
 
-const bookCreateGet = function (req: Req, res: Res) {
+const bookCreateGet = (req: IRequest, res: IResponse) => {
   res.send('NOT IMPLEMENTED: Book create GET')
 }
 
-const bookCreatePost = function (req: Req, res: Res) {
+const bookCreatePost = (req: IRequest, res: IResponse) => {
   res.send('NOT IMPLEMENTED: Book create POST')
 }
 
-const bookDeleteGet = function (req: Req, res: Res) {
+const bookDeleteGet = (req: IRequest, res: IResponse) => {
   res.send('NOT IMPLEMENTED: Book delete GET')
 }
 
-const bookDeletePost = function (req: Req, res: Res) {
+const bookDeletePost = (req: IRequest, res: IResponse) => {
   res.send('NOT IMPLEMENTED: Book delete POST')
 }
 
-const bookUpdateGet = function (req: Req, res: Res) {
+const bookUpdateGet = (req: IRequest, res: IResponse) => {
   res.send('NOT IMPLEMENTED: Book update GET')
 }
 
-const bookUpdatePost = function (req: Req, res: Res) {
+const bookUpdatePost = (req: IRequest, res: IResponse) => {
   res.send('NOT IMPLEMENTED: Book update POST')
 }
 export {
