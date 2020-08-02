@@ -6,7 +6,7 @@
 
 import http from 'http'
 import debug from 'debug'
-import app from '../../app'
+import app from '../app'
 
 debug('library:server')
 
