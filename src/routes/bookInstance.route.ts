@@ -1,6 +1,6 @@
 import express from 'express'
 
-import { bookInstanceController } from '../Controllers'
+import { bookInstanceController } from '../controllers'
 
 const router = express.Router()
 

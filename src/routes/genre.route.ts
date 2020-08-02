@@ -1,6 +1,6 @@
 import express from 'express'
 
-import { genreController } from '../Controllers'
+import { genreController } from '../controllers'
 
 const router = express.Router()
 
