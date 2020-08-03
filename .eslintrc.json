@@ -31,7 +31,14 @@
       }
     ],
     "import/prefer-default-export": "off",
-    "no-use-before-define": ["error", { "functions": false }]
+    "no-use-before-define": ["error", { "functions": false }],
+    "@typescript-eslint/no-empty-interface": [
+      "error",
+      {
+        "allowSingleExtends": true
+      }
+    ],
+    "consistent-return": 0
   },
   "settings": {
     "import/resolver": {
