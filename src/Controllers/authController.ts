@@ -1,5 +1,5 @@
 import HttpException from '../exceptions/HttpException'
-import { Logger } from '../middleware'
+import { Logger } from '../config/logger'
 import { IRequest, IResponse, INext } from '../interfaces/vendors'
 import { Author } from '../models'
 

@@ -1,5 +1,5 @@
 import mongoose from 'mongoose'
-import { Logger } from '../middleware'
+import { Logger } from '../config/logger'
 
 const logger = new Logger('database')
 

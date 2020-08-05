@@ -1,0 +1,160 @@
+[32minfo[39m | bookList Page.log | bookList Result | data:
+[90m[[39m
+    [90m{[39m
+        [35m"_id"[39m[90m:[39m [33m"5f009c1d04fbde10b83371bf"[39m[90m,[39m
+        [35m"title"[39m[90m:[39m [33m"The Slow Regard of Silent Things (Kingkiller Chronicle)"[39m[90m,[39m
+        [35m"author"[39m[90m:[39m [90m{[39m
+            [35m"_id"[39m[90m:[39m [33m"5f009c1c04fbde10b83371b5"[39m[90m,[39m
+            [35m"first_name"[39m[90m:[39m [33m"Patrick"[39m[90m,[39m
+            [35m"family_name"[39m[90m:[39m [33m"Rothfuss"[39m[90m,[39m
+            [35m"date_of_birth"[39m[90m:[39m [33m"1973-06-06T00:00:00.000Z"[39m[90m,[39m
+            [35m"__v"[39m[90m:[39m [32m0[39m
+        [90m}[39m
+    [90m}[39m[90m,[39m
+    [90m{[39m
+        [35m"_id"[39m[90m:[39m [33m"5f009c1d04fbde10b83371bd"[39m[90m,[39m
+        [35m"title"[39m[90m:[39m [33m"The Name of the Wind (The Kingkiller Chronicle, #1)"[39m[90m,[39m
+        [35m"author"[39m[90m:[39m [90m{[39m
+            [35m"_id"[39m[90m:[39m [33m"5f009c1c04fbde10b83371b5"[39m[90m,[39m
+            [35m"first_name"[39m[90m:[39m [33m"Patrick"[39m[90m,[39m
+            [35m"family_name"[39m[90m:[39m [33m"Rothfuss"[39m[90m,[39m
+            [35m"date_of_birth"[39m[90m:[39m [33m"1973-06-06T00:00:00.000Z"[39m[90m,[39m
+            [35m"__v"[39m[90m:[39m [32m0[39m
+        [90m}[39m
+    [90m}[39m[90m,[39m
+    [90m{[39m
+        [35m"_id"[39m[90m:[39m [33m"5f009c1d04fbde10b83371c0"[39m[90m,[39m
+        [35m"title"[39m[90m:[39m [33m"Apes and Angels"[39m[90m,[39m
+        [35m"author"[39m[90m:[39m [90m{[39m
+            [35m"_id"[39m[90m:[39m [33m"5f009c1d04fbde10b83371b6"[39m[90m,[39m
+            [35m"first_name"[39m[90m:[39m [33m"Ben"[39m[90m,[39m
+            [35m"family_name"[39m[90m:[39m [33m"Bova"[39m[90m,[39m
+            [35m"date_of_birth"[39m[90m:[39m [33m"1932-11-07T18:30:00.000Z"[39m[90m,[39m
+            [35m"__v"[39m[90m:[39m [32m0[39m
+        [90m}[39m
+    [90m}[39m[90m,[39m
+    [90m{[39m
+        [35m"_id"[39m[90m:[39m [33m"5f009c1d04fbde10b83371c2"[39m[90m,[39m
+        [35m"title"[39m[90m:[39m [33m"Test Book 1"[39m[90m,[39m
+        [35m"author"[39m[90m:[39m [90m{[39m
+            [35m"_id"[39m[90m:[39m [33m"5f009c1d04fbde10b83371b9"[39m[90m,[39m
+            [35m"first_name"[39m[90m:[39m [33m"Jim"[39m[90m,[39m
+            [35m"family_name"[39m[90m:[39m [33m"Jones"[39m[90m,[39m
+            [35m"date_of_birth"[39m[90m:[39m [33m"1971-12-16T00:00:00.000Z"[39m[90m,[39m
+            [35m"__v"[39m[90m:[39m [32m0[39m
+        [90m}[39m
+    [90m}[39m[90m,[39m
+    [90m{[39m
+        [35m"_id"[39m[90m:[39m [33m"5f009c1d04fbde10b83371c3"[39m[90m,[39m
+        [35m"title"[39m[90m:[39m [33m"Test Book 2"[39m[90m,[39m
+        [35m"author"[39m[90m:[39m [90m{[39m
+            [35m"_id"[39m[90m:[39m [33m"5f009c1d04fbde10b83371b9"[39m[90m,[39m
+            [35m"first_name"[39m[90m:[39m [33m"Jim"[39m[90m,[39m
+            [35m"family_name"[39m[90m:[39m [33m"Jones"[39m[90m,[39m
+            [35m"date_of_birth"[39m[90m:[39m [33m"1971-12-16T00:00:00.000Z"[39m[90m,[39m
+            [35m"__v"[39m[90m:[39m [32m0[39m
+        [90m}[39m
+    [90m}[39m[90m,[39m
+    [90m{[39m
+        [35m"_id"[39m[90m:[39m [33m"5f009c1d04fbde10b83371be"[39m[90m,[39m
+        [35m"title"[39m[90m:[39m [33m"The Wise Man's Fear (The Kingkiller Chronicle, #2)"[39m[90m,[39m
+        [35m"author"[39m[90m:[39m [90m{[39m
+            [35m"_id"[39m[90m:[39m [33m"5f009c1c04fbde10b83371b5"[39m[90m,[39m
+            [35m"first_name"[39m[90m:[39m [33m"Patrick"[39m[90m,[39m
+            [35m"family_name"[39m[90m:[39m [33m"Rothfuss"[39m[90m,[39m
+            [35m"date_of_birth"[39m[90m:[39m [33m"1973-06-06T00:00:00.000Z"[39m[90m,[39m
+            [35m"__v"[39m[90m:[39m [32m0[39m
+        [90m}[39m
+    [90m}[39m[90m,[39m
+    [90m{[39m
+        [35m"_id"[39m[90m:[39m [33m"5f009c1d04fbde10b83371c1"[39m[90m,[39m
+        [35m"title"[39m[90m:[39m [33m"Death Wave"[39m[90m,[39m
+        [35m"author"[39m[90m:[39m [90m{[39m
+            [35m"_id"[39m[90m:[39m [33m"5f009c1d04fbde10b83371b6"[39m[90m,[39m
+            [35m"first_name"[39m[90m:[39m [33m"Ben"[39m[90m,[39m
+            [35m"family_name"[39m[90m:[39m [33m"Bova"[39m[90m,[39m
+            [35m"date_of_birth"[39m[90m:[39m [33m"1932-11-07T18:30:00.000Z"[39m[90m,[39m
+            [35m"__v"[39m[90m:[39m [32m0[39m
+        [90m}[39m
+    [90m}[39m
+[90m][39m | 
+[32minfo[39m | bookList Page.log | bookList Result | data:
+[90m[[39m
+    [90m{[39m
+        [35m"_id"[39m[90m:[39m [33m"5f009c1d04fbde10b83371bf"[39m[90m,[39m
+        [35m"title"[39m[90m:[39m [33m"The Slow Regard of Silent Things (Kingkiller Chronicle)"[39m[90m,[39m
+        [35m"author"[39m[90m:[39m [90m{[39m
+            [35m"_id"[39m[90m:[39m [33m"5f009c1c04fbde10b83371b5"[39m[90m,[39m
+            [35m"first_name"[39m[90m:[39m [33m"Patrick"[39m[90m,[39m
+            [35m"family_name"[39m[90m:[39m [33m"Rothfuss"[39m[90m,[39m
+            [35m"date_of_birth"[39m[90m:[39m [33m"1973-06-06T00:00:00.000Z"[39m[90m,[39m
+            [35m"__v"[39m[90m:[39m [32m0[39m
+        [90m}[39m
+    [90m}[39m[90m,[39m
+    [90m{[39m
+        [35m"_id"[39m[90m:[39m [33m"5f009c1d04fbde10b83371bd"[39m[90m,[39m
+        [35m"title"[39m[90m:[39m [33m"The Name of the Wind (The Kingkiller Chronicle, #1)"[39m[90m,[39m
+        [35m"author"[39m[90m:[39m [90m{[39m
+            [35m"_id"[39m[90m:[39m [33m"5f009c1c04fbde10b83371b5"[39m[90m,[39m
+            [35m"first_name"[39m[90m:[39m [33m"Patrick"[39m[90m,[39m
+            [35m"family_name"[39m[90m:[39m [33m"Rothfuss"[39m[90m,[39m
+            [35m"date_of_birth"[39m[90m:[39m [33m"1973-06-06T00:00:00.000Z"[39m[90m,[39m
+            [35m"__v"[39m[90m:[39m [32m0[39m
+        [90m}[39m
+    [90m}[39m[90m,[39m
+    [90m{[39m
+        [35m"_id"[39m[90m:[39m [33m"5f009c1d04fbde10b83371c0"[39m[90m,[39m
+        [35m"title"[39m[90m:[39m [33m"Apes and Angels"[39m[90m,[39m
+        [35m"author"[39m[90m:[39m [90m{[39m
+            [35m"_id"[39m[90m:[39m [33m"5f009c1d04fbde10b83371b6"[39m[90m,[39m
+            [35m"first_name"[39m[90m:[39m [33m"Ben"[39m[90m,[39m
+            [35m"family_name"[39m[90m:[39m [33m"Bova"[39m[90m,[39m
+            [35m"date_of_birth"[39m[90m:[39m [33m"1932-11-07T18:30:00.000Z"[39m[90m,[39m
+            [35m"__v"[39m[90m:[39m [32m0[39m
+        [90m}[39m
+    [90m}[39m[90m,[39m
+    [90m{[39m
+        [35m"_id"[39m[90m:[39m [33m"5f009c1d04fbde10b83371c2"[39m[90m,[39m
+        [35m"title"[39m[90m:[39m [33m"Test Book 1"[39m[90m,[39m
+        [35m"author"[39m[90m:[39m [90m{[39m
+            [35m"_id"[39m[90m:[39m [33m"5f009c1d04fbde10b83371b9"[39m[90m,[39m
+            [35m"first_name"[39m[90m:[39m [33m"Jim"[39m[90m,[39m
+            [35m"family_name"[39m[90m:[39m [33m"Jones"[39m[90m,[39m
+            [35m"date_of_birth"[39m[90m:[39m [33m"1971-12-16T00:00:00.000Z"[39m[90m,[39m
+            [35m"__v"[39m[90m:[39m [32m0[39m
+        [90m}[39m
+    [90m}[39m[90m,[39m
+    [90m{[39m
+        [35m"_id"[39m[90m:[39m [33m"5f009c1d04fbde10b83371c3"[39m[90m,[39m
+        [35m"title"[39m[90m:[39m [33m"Test Book 2"[39m[90m,[39m
+        [35m"author"[39m[90m:[39m [90m{[39m
+            [35m"_id"[39m[90m:[39m [33m"5f009c1d04fbde10b83371b9"[39m[90m,[39m
+            [35m"first_name"[39m[90m:[39m [33m"Jim"[39m[90m,[39m
+            [35m"family_name"[39m[90m:[39m [33m"Jones"[39m[90m,[39m
+            [35m"date_of_birth"[39m[90m:[39m [33m"1971-12-16T00:00:00.000Z"[39m[90m,[39m
+            [35m"__v"[39m[90m:[39m [32m0[39m
+        [90m}[39m
+    [90m}[39m[90m,[39m
+    [90m{[39m
+        [35m"_id"[39m[90m:[39m [33m"5f009c1d04fbde10b83371be"[39m[90m,[39m
+        [35m"title"[39m[90m:[39m [33m"The Wise Man's Fear (The Kingkiller Chronicle, #2)"[39m[90m,[39m
+        [35m"author"[39m[90m:[39m [90m{[39m
+            [35m"_id"[39m[90m:[39m [33m"5f009c1c04fbde10b83371b5"[39m[90m,[39m
+            [35m"first_name"[39m[90m:[39m [33m"Patrick"[39m[90m,[39m
+            [35m"family_name"[39m[90m:[39m [33m"Rothfuss"[39m[90m,[39m
+            [35m"date_of_birth"[39m[90m:[39m [33m"1973-06-06T00:00:00.000Z"[39m[90m,[39m
+            [35m"__v"[39m[90m:[39m [32m0[39m
+        [90m}[39m
+    [90m}[39m[90m,[39m
+    [90m{[39m
+        [35m"_id"[39m[90m:[39m [33m"5f009c1d04fbde10b83371c1"[39m[90m,[39m
+        [35m"title"[39m[90m:[39m [33m"Death Wave"[39m[90m,[39m
+        [35m"author"[39m[90m:[39m [90m{[39m
+            [35m"_id"[39m[90m:[39m [33m"5f009c1d04fbde10b83371b6"[39m[90m,[39m
+            [35m"first_name"[39m[90m:[39m [33m"Ben"[39m[90m,[39m
+            [35m"family_name"[39m[90m:[39m [33m"Bova"[39m[90m,[39m
+            [35m"date_of_birth"[39m[90m:[39m [33m"1932-11-07T18:30:00.000Z"[39m[90m,[39m
+            [35m"__v"[39m[90m:[39m [32m0[39m
+        [90m}[39m
+    [90m}[39m
+[90m][39m | 

@@ -1,8 +1,10 @@
 import async from 'async'
-import { IRequest, IResponse } from '../interfaces/vendors'
+import { IRequest, IResponse, INext } from '../interfaces/vendors'
 import { Book, BookInstance, Author, Genre } from '../models'
+import { Logger } from '../config/logger'
 
-const index = (req: IRequest, res: IResponse) => {
+const logger = new Logger('homePage')
+const index = (req: IRequest, res: IResponse, next: INext) => {
   async.parallel(
     {
       bookCount(callback) {
@@ -23,9 +25,12 @@ const index = (req: IRequest, res: IResponse) => {
     },
 
     (err, results) => {
-      // console.log(err)
-      if (err) throw err
-      // console.log(results)
+      if (err) {
+        return next(err)
+      }
+
+      logger.infoResult(`homePage Result`, results)
+
       res.send(results)
     },
   )

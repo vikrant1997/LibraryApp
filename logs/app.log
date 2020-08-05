@@ -1,0 +1,4 @@
+[32minfo[39m | app.log | ::1 - GET /book/list HTTP/1.1 304 - - 33.056 ms
+ | 
+[32minfo[39m | app.log | ::1 - GET /book/list HTTP/1.1 304 - - 84.718 ms
+ | 

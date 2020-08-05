@@ -1,15 +1,14 @@
-import winston, { stream } from 'winston'
+import winston from 'winston'
+import colorize from 'json-colorizer'
 
 class LoggerService {
-  logData: null
-
   route: string
 
   logger: winston.Logger
 
   constructor(route: string) {
-    this.logData = null
     this.route = route
+
     const logger = winston.createLogger({
       transports: [
         new winston.transports.Console(),
@@ -17,6 +16,7 @@ class LoggerService {
           filename: `./logs/${route}.log`,
         }),
       ],
+
       format: winston.format.combine(
         winston.format.colorize(),
         // winston.format.prettyPrint(),
@@ -26,12 +26,17 @@ class LoggerService {
         // winston.format.padLevels(),
         winston.format.printf((info) => {
           let message = `${info.level} | ${route}.log | ${info.message} | `
+
           message = info.obj
             ? `${message}data:${JSON.stringify(info.obj)} | `
             : message
-          message = this.logData
-            ? `${message}logData:${JSON.stringify(this.logData)} | `
+
+          message = info.result
+            ? `${message}data:\n${colorize(
+                JSON.stringify(info.result, null, 4),
+              )} | `
             : message
+
           return message
         }),
       ),
@@ -46,32 +51,20 @@ class LoggerService {
     },
   }
 
-  setLogData(logData: any): void {
-    this.logData = logData
+  info(message: string, obj?: any): void {
+    this.logger.info({ message, obj })
   }
 
-  async info(message, obj?: any): Promise<void> {
-    this.logger.log('info', message, obj ?? { obj })
+  infoResult(message: string, result?: any): void {
+    this.logger.info({ message, result })
   }
 
-  async debug(message, obj?: any): Promise<void> {
-    this.logger.log(
-      'debug',
-      message,
-      obj ?? {
-        obj,
-      },
-    )
+  debug(message: string, obj?: any): void {
+    this.logger.debug({ message, obj })
   }
 
-  async error(message, obj?: any): Promise<void> {
-    this.logger.log(
-      'error',
-      message,
-      obj ?? {
-        obj,
-      },
-    )
+  error(message: string, obj?: any): void {
+    this.logger.error({ message, obj })
   }
 }
 

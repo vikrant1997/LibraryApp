@@ -2,7 +2,9 @@ import async from 'async'
 import { IRequest, IResponse, INext, IError } from '../interfaces/vendors'
 import { Book, BookInstance } from '../models'
 import HttpException from '../exceptions/HttpException'
+import { Logger } from '../config/logger'
 
+const logger = new Logger('bookList Page')
 const index = (req: IRequest, res: IResponse) => {
   res.send('NOT IMPLEMENTED: Site Home Page')
 }
@@ -14,6 +16,7 @@ const bookList = (req: IRequest, res: IResponse, next: INext) => {
       if (err) {
         return next(err)
       }
+      logger.infoResult('bookList Result', listBooks)
 
       res.send(listBooks)
     })
